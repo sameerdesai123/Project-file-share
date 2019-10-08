@@ -9,8 +9,8 @@ client = Client(account_sid, auth_token)
 message = client.messages \
                 .create(
                      body="ALERT. Your car is under threat!!",
-                     from_='+12015813652',
-                     to='+917337208768'
+                     from_='',
+                     to=''
                  )
 
 # print(message.sid)
