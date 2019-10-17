@@ -1,6 +1,6 @@
 import time
 import math
-from mcp3208 import MCP3008
+from mcp3208 import MCP3208 as MCP3008
 
 class MQ2():
 
